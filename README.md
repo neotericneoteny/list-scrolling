@@ -4,7 +4,8 @@ especially Android devices.
 
 ### Start Local Web Server
 
-> sencha fs web -p 3001 start -map channelcandy/android=.
+> sencha fs web -p 3001 start -map android/channelcandy=.
+
 
 ### Package the Project Native
 
