@@ -7,4 +7,20 @@ Start Local Web Server
 
 > sencha fs web -p 3001 start -map channelcandy/android=.
 
+Package the Project Native
+==========================
 
+> sencha app build -c -e native
+
+
+Build Project for Deployment
+============================
+
+> sencha app build -c -e package
+
+
+
+Run App in Simulator
+====================
+
+> sencha app build -c -r -e native
